@@ -19,7 +19,7 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <button
-      className={clsx(cls.button, cls[variant], cls[theme])}
+      className={clsx(cls.button, cls[variant], cls[theme], props.className)}
       onClick={onClick}
       {...props}
     >

@@ -61,6 +61,7 @@
   items-center justify-between
   gap-[18.25px] py-[16.25px] px-[18.25px];
 }
+
 .todo .name {
   @apply flex-1
   font-sans text-sm
@@ -69,4 +70,29 @@
 
 .todo .remove {
   @apply w-2 h-2;
+}
+
+.modal_content {
+  @apply w-full py-10 px-16;
+}
+
+.modal_buttons {
+  @apply flex items-center justify-center
+  gap-3
+  bg-stone-50 py-3 px-4;
+}
+
+.modal_buttons .cancel_button {
+  @apply text-sm
+  font-medium text-stone-700
+  rounded-lg py-2
+  px-[36.5px];
+}
+
+.modal_buttons .confirm_button {
+  @apply text-sm
+  font-medium text-white
+  bg-rose-800
+  rounded-lg py-2
+  px-[36.5px];
 }

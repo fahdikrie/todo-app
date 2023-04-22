@@ -11,8 +11,8 @@ const inter = Inter({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <html className={inter.variable}>
+    <div className={inter.variable}>
       <Component {...pageProps} />
-    </html>
+    </div>
   );
 }

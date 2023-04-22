@@ -1,0 +1,9 @@
+{
+  "typescript.tsdk": "node_modules/.pnpm/typescript@5.0.2/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.indentSize": "tabSize"
+  },
+  "prettier.configPath": "./.prettierrc.js"
+}

@@ -1,0 +1,8 @@
+.card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+
+  @apply bg-white
+  font-sans text-sm
+  rounded-lg
+  py-9;
+}

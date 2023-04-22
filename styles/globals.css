@@ -1,7 +1,10 @@
+@import './reset.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-base {
-  @apply font-sans;
+html {
+  @apply font-sans
+    bg-neutral-100;
 }

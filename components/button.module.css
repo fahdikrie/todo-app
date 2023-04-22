@@ -1,0 +1,28 @@
+.button {
+  @apply font-sans
+  font-semibold
+  text-sm
+
+  rounded-lg
+  px-4 py-2;
+}
+
+.ghost.danger {
+  @apply text-rose-700
+  bg-transparent;
+}
+
+.ghost.normal {
+  @apply text-sky-700
+  bg-transparent;
+}
+
+.solid.danger {
+  @apply text-white
+  bg-rose-700;
+}
+
+.solid.normal {
+  @apply text-white
+  bg-sky-800;
+}

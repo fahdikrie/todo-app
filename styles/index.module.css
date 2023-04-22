@@ -32,10 +32,15 @@
   mt-8;
 }
 
+.input {
+  @apply flex-1;
+}
+
 .create_todo textarea {
-  @apply flex-1 resize-none
+  @apply resize-none
   text-stone-900
-  font-sans;
+  font-sans
+  w-full;
 }
 
 .create_todo textarea::placeholder {
@@ -48,5 +53,20 @@
 }
 
 .todo_list {
-  @apply mt-8;
+  @apply mt-8 flex flex-col gap-5;
+}
+
+.todo {
+  @apply flex
+  items-center justify-between
+  gap-[18.25px] py-[16.25px] px-[18.25px];
+}
+.todo .name {
+  @apply flex-1
+  font-sans text-sm
+  font-medium text-stone-700;
+}
+
+.todo .remove {
+  @apply w-2 h-2;
 }

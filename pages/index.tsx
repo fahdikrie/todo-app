@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import TextareaAutosize from 'react-textarea-autosize';
 
 import Button from '@/components/button';
 import Empty from '@/components/empty';
@@ -22,7 +23,11 @@ export default function Home() {
       </div>
       {isAdding && (
         <div className={cls.create_todo}>
-          <input placeholder="Add new to-do title..." />
+          <TextareaAutosize
+            minRows={1}
+            maxRows={2}
+            placeholder="Add new to-do title..."
+          />
           <div className={cls.buttons}>
             <Button variant="ghost" onClick={() => setIsAdding(false)}>
               Cancel

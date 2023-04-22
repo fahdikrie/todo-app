@@ -32,6 +32,16 @@
   mt-8;
 }
 
+.create_todo textarea {
+  @apply flex-1 resize-none
+  text-stone-900
+  font-sans;
+}
+
+.create_todo textarea::placeholder {
+  @apply text-stone-300;
+}
+
 .create_todo .buttons {
   @apply flex
   gap-0;
